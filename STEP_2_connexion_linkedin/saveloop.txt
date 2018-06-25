@@ -1,0 +1,27 @@
+casper.repeat(num_result+1,function(){
+	console.log(cpt_2);
+	if(casper.exists('body.touch.x1._fzu._50-3.iframe.acw.portrait:nth-child(2) div.acw:nth-child(4) div._4g33:nth-child(1) div._4g34 div._xn5 div._5p-o div._1uja._59qr:nth-child(' +cpt_2 +') div.item button._54k8 span._55sr')){
+	console.log('EXISTE');
+	casper.wait(10000, function(){
+			casper.click('body.touch.x1._fzu._50-3.iframe.acw.portrait:nth-child(2) div.acw:nth-child(4) div._4g33:nth-child(1) div._4g34 div._xn5 div._5p-o div._1uja._59qr:nth-child(' +cpt_2 +') div.item button._54k8 span._55sr');
+						//body.touch.x1._fzu._50-3.iframe.acw.portrait:nth-child(3) div.acw:nth-child(4) div._4g33:nth-child(1) div._4g34 div._xn5 div._5p-o:nth-child(1) div._1uja._59qr:nth-child(8) div.item._cs2.acw div.ib.cc._1aj4 div._4mn.c a:nth-child(1) div._4mo span:nth-child(1) span:nth-child(1) > strong:nth-child(1)
+	//casper.click('body.touch.x1._fzu._50-3.iframe.acw.portrait:nth-child(2) div._5m_x._3vjk._uvj.accelerate._4zez:nth-child(3) div._5m_v div._5m_u div._5m_t div._52jj._3vjl div:nth-child(4) div._4g33 div._55wr._4g34:nth-child(2) form._55-k > button._54k8._52jg._56bs._26vk._56b_._56bu:nth-child(2)');
+cpt_2++;
+
+		});
+	}else{
+		casper.wait(10000, function(){
+			console.log('NEXISTEPAS');
+	casper.capture("./screenshots/cliker.png");
+	});
+	cpt_2++;
+		}
+	//casper.click('body.touch.x1._fzu._50-3.iframe.acw.portrait:nth-child(2) div.acw:nth-child(4) div._4g33:nth-child(1) div._4g34 div._xn5 div._5p-o div._1uja._59qr:nth-child(6) div.item._cs2.acw div.ib.cc._1aj4 div._4mn.c a:nth-child(1) div._4mo span:nth-child(1) span:nth-child(1) > strong:nth-child(1)');
+	//casper.click('div#reaction_profile_browser1 div.item button._54k8 span._55sr');
+	//casper.click('div#page div.acw div._xn5 div.item button._54k8 span._55sr');
+	//casper.click('body.touch.x1._fzu._50-3.iframe.acw.portrait:nth-child(2) div.acw:nth-child(4) div._4g33:nth-child(1) div._4g34 div._xn5 div._5p-o div._1uja._59qr:nth-child(1) div.item._cs2.acw div.ib.cc._1aj4 div._4mq.ext div._4g33 div._5s61:nth-child(1) div.right._2gb- div:nth-child(1) a.touchable.right._41g3 > button._54k8._52jg._56bs._26vk._56bu')[4];
+	//casper.thenClick(x('//div[@id="u_0_k"]//a[@class="touchable right _58x3"]//button[@type="submit"]'),function(){
+	
+	//});
+	
+});
