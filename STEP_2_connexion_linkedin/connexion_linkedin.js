@@ -51,7 +51,7 @@ casper.on("page.error", function(msg, trace) {
 var url_connexion = 'https://www.facebook.com/';
 
 // Paramètres de connexion à linkedin
-var credentials = {email:"evanmc@outlook.fr",password:"Blablacar66"};
+var credentials = {email:"evanmc@outlook.fr",password:""};
 
 // Identifiant des differents elements dont nous aurons besoin
 var identifiant = {input_email:'input[name="email"]',input_password:'input[name="pass"]',valider_connexion:'button[name="login"]'};
